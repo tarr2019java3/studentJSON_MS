@@ -37,4 +37,13 @@ public class Student {
     public void setIndex(Integer index) {
         this.index = index;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", index=" + index +
+                '}';
+    }
 }
